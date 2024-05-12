@@ -5,8 +5,6 @@ import '../css/Signin.css'
 
 const Signin = (props) => {
 
-    console.log(props.user,"user")
-
   return(
     <div className="login-form">
     <form action="/examples/actions/confirmation.php" method="post">
